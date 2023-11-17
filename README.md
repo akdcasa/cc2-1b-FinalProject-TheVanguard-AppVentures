@@ -1,1 +1,1 @@
-# cc2-1b-finalproject-thevanguard-appventures
+# cc2-1b-FinalProject-TheVanguard-AppVentures
