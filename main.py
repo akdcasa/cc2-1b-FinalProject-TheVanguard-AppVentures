@@ -38,7 +38,6 @@ def startGame():
     elif user_input == '3':
         global isPlaying
         print("\nThank you for playing AppVenture!")
-        print("Quote dito huehuehue")
         isPlaying = False
     else:
         print("\nOption Invalid!")
