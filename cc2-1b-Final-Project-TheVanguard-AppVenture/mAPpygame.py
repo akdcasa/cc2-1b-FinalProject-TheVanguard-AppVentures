@@ -2,8 +2,8 @@ import pygame
 import random
 
 # Constants
-WIDTH = 1590
-HEIGHT = 870
+WIDTH = 1920
+HEIGHT = 1080
 CELL_SIZE = 40
 MAP_WIDTH = WIDTH // CELL_SIZE
 MAP_HEIGHT = HEIGHT // CELL_SIZE
