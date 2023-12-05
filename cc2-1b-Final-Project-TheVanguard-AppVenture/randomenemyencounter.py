@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 import random
 #Hero Classes
 class Iso (object):
@@ -153,13 +146,13 @@ def battlestate(score):
                         enemy.health = 30
                         score = score = + 15
 
-
+                    
                     print ("You have crushed the", enemy.name)
                     print ("looks like it dropped something!")
                     lootDrop = loot()
                     print ("you got a", lootDrop)
                     lootEffect(lootDrop, character)
-                    return score
+                    import Ending
                     break
             else:
                 print("Your sword slips from your grasp, you fumble and miss!")
@@ -185,23 +178,23 @@ def battlestate(score):
                         enemy.health = 20
                         score = score = + 10
 
-
                     elif enemy.name == "Bat":
                         enemy.health = 10
                         score = score = + 5
-
-
+                        
                     elif enemy.name == "Troll":
                         enemy.health = 30
                         score = score = + 15
-
+                        
                     print ("You have shot the", enemy.name)
                     print ("looks like it dropped something!")
                     lootDrop = loot()
                     print ("you got a", lootDrop)
                     lootEffect(lootDrop, character)
-                    return score
+                    import Ending
                     break
+                    
+                
 
             else:
                 print("You didn't hit the enemy, the enemy is running so you miss!")
@@ -226,19 +219,11 @@ def battlestate(score):
     else:
         print ("Invalid input, please only type the following")
 
-score = 0
+score = random
 character = heroselect()
 score = battlestate(score)
-print (score)
-score = battlestate(score)
-print(score)
-score = battlestate(score)
-print(score)
-score = battlestate(score)
-print(score)
-score = battlestate(score)
-print(score)
-score = battlestate(score)
+print ("")
+import main
 
 
 
